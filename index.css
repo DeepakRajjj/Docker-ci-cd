@@ -1,0 +1,175 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 107, 107);
+    color: aliceblue;
+    font-size: 1.5rem;
+    height: 90px;
+}
+
+.container{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 1px 3px 3px 3px rgb(215, 215, 215);
+    padding: 5%;
+    position: relative;
+    top: 43px;
+    margin: auto;
+}
+.searchBar{
+    display: flex;
+    gap: 4px;
+}
+.container input{
+    width: 80%;
+    padding: 15px;
+    height: 13px;
+    border: none;
+    outline: none;
+    background-color: rgb(25, 107, 107);
+    color: rgb(255, 255, 255);
+    border-radius: 5px 0px 0px 5px;
+    font-size: 1rem;
+}
+::placeholder{
+    color:azure;
+}
+button{
+    padding: 11px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(25, 107, 107);
+    color: azure;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.text{
+    padding: 22px;
+    margin-top: 22px;
+}
+
+.text p{
+    margin-top: 18px;
+}
+
+.text a{
+    padding: 6px 20px;
+    color: azure;
+    border-radius: 5px;
+    background-color: rgb(25, 107, 107);
+    font-size: 1rem;
+    font-weight: 300;
+    position: relative;
+    top: 18px;
+}
+.text span{
+    color: rgb(98, 95, 95);
+} */
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 107, 107);
+    color: aliceblue;
+    font-size: 1.5rem;
+    height: 90px;
+}
+
+.container {
+    width: 90%; /* Changed width to percentage for responsiveness */
+    max-width: 500px; /* Added max-width for limiting container width on larger screens */
+    background-color: #fff;
+    box-shadow: 1px 3px 3px 3px rgb(215, 215, 215);
+    padding: 5%;
+    position: relative;
+    top: 43px;
+    margin: auto;
+}
+
+.searchBar {
+    /* width: 100%; */
+    display: flex;
+    gap: 4px;
+}
+
+.container input {
+    width: 80%;
+    padding: 15px;
+    height: 13px;
+    border: none;
+    outline: none;
+    background-color: rgb(25, 107, 107);
+    color: rgb(255, 255, 255);
+    border-radius: 5px 0px 0px 5px;
+    font-size: 1rem;
+}
+
+::placeholder {
+    color: azure;
+}
+
+button {
+    padding: 11px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(25, 107, 107);
+    color: azure;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.text {
+    padding: 22px;
+    margin-top: 22px;
+}
+
+.text p {
+    margin-top: 18px;
+}
+
+.text a {
+    padding: 6px 20px;
+    color: azure;
+    border-radius: 5px;
+    background-color: rgb(25, 107, 107);
+    font-size: 1rem;
+    font-weight: 300;
+    position: relative;
+    top: 18px;
+    text-decoration: none;
+}
+
+.text span {
+    color: rgb(98, 95, 95);
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
